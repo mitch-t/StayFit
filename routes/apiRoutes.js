@@ -3,8 +3,8 @@ const Workout = require("../models/exercise.js");
 module.exports = function (app) {
   app.get("/api/workouts", (req, res) => {
     Workout.find({})
-      .then((dbWorkout) => {
-        res.json(dbWorkout);
+      .then((Workout) => {
+        res.json(Workout);
       })
       .catch((err) => {
         res.json(err);
@@ -13,9 +13,9 @@ module.exports = function (app) {
 
   app.get("/api/workouts/range", (req, res) => {
     Workout.find({})
-      .limit(7)
-      .then((dbWorkout) => {
-        res.json(dbWorkout);
+      .limit(15)
+      .then((Workout) => {
+        res.json(Workout);
       })
       .catch((err) => {
         res.json(err);
@@ -24,8 +24,8 @@ module.exports = function (app) {
 
   app.post("/api/workouts", ({ body }, res) => {
     Workout.create(body)
-      .then((dbWorkout) => {
-        res.json(dbWorkout);
+      .then((Workout) => {
+        res.json(Workout);
       })
       .catch((err) => {
         res.json(err);
@@ -38,8 +38,8 @@ module.exports = function (app) {
         exercises: body,
       },
     })
-      .then((dbWorkout) => {
-        res.json(dbWorkout);
+      .then((Workout) => {
+        res.json(Workout);
       })
       .catch((err) => {
         res.json(err);
