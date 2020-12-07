@@ -1,7 +1,7 @@
 # StayFit Fitness Tracker
 
 <!--- These are examples. See https://shields.io for others or to customize this set of shields. You might want to include dependencies, project status and licence info here --->
-![GitHub repo size](https://img.shields.io/github/repo-size/mitch-t/StayFit)![APM](https://img.shields.io/apm/l/test?style=for-the-badge)
+![GitHub repo size](https://img.shields.io/github/repo-size/mitch-t/StayFit)!
 
 <!-- TABLE OF CONTENTS -->
 ## Table of Contents
@@ -32,8 +32,6 @@ To contribute to StayFit Fitness Tracker, follow these steps:
 3. Commit your Changes 
 4. Push to the Branch 
 5. Open a Pull Request
-
-1. Fork the Project
 
 Alternatively see the GitHub documentation on [creating a pull request](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request).
 
