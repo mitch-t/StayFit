@@ -22,7 +22,10 @@ mongoose.connect(
     useFindAndModify: false
   }
 );
+<<<<<<< HEAD
 
+=======
+>>>>>>> 1b67c0e7eb1008dd69f612218417b037b2770033
 
 require("./routes/apiRoutes")(app);
 require("./routes/htmlRoutes")(app);
