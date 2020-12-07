@@ -37,7 +37,7 @@ Alternatively see the GitHub documentation on [creating a pull request](https://
 
 
 ## Testing StayFit Fitness Tracker
-2. Create your Feature Branch 
+NA
 
 ## Questions
 If you have any questions you can contact me at mitcht032@yahoo.com:
