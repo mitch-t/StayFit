@@ -9,6 +9,7 @@
 * [About](#about)
 * [Installation](#installation)
 * [Usage](#usage)
+* [Screenshots](#screenshots)
 * [Tests](#tests)
 * [Contributing](#contributing)
 * [License](#license)
@@ -16,6 +17,10 @@
 
 ## About 
 StayFit Fitness Tracker - This project uses node express and mongoose as well as MongoDB to allow a user to input and store their workout routines.
+
+## Screenshots
+![Screenshot (147)](https://user-images.githubusercontent.com/66184450/101423043-fae87200-38ac-11eb-82ca-0ba25fd75969.png)
+![Screenshot (148)](https://user-images.githubusercontent.com/66184450/101423161-48fd7580-38ad-11eb-82d0-684121c41309.png)
 
 ## Installing 
 To install StayFit Fitness Tracker, follow these steps: The code can be pulled from this repo. Latest version of nodejs must be installed. Install npm in the terminal from the file directory. This app runs in conjuction with MongoDB and is connected with MongoDB atlas https://www.mongodb.com/cloud/atlas/signup.The app is deployed via Heroku, so a Heroku account must also be set up.
